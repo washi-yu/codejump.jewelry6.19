@@ -1,0 +1,209 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Crimson Text", serif;
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-visual {
+  width: 90vw;
+  margin: 60px auto 0 auto;
+}
+.main-visual img {
+  width: 100%;
+}
+
+header {
+  width: 90vw;
+  margin: 36px auto 0 auto;
+  display: flex;
+}
+
+.link a {
+  font-size:0.875rem ;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* ロゴのサイズ */
+.logo {
+  width: 110px;
+}
+.logo img { 
+  width: 100%; 
+  vertical-align: middle;  
+ } 
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#concept {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.concept-img {
+  width: 55%;
+}
+
+.concept-img img {
+  width: 100%;
+}
+
+
+.concept-text {
+  width:  45%;
+  padding: 0 47px;
+}
+ 
+.concept-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color:  #2D2D2D;
+  margin: 0;
+}
+
+.concept-text p {
+  color:  #2D2D2D;
+  margin: 0;
+  padding-right:20px ;
+}
+
+
+
+.concept-text p:nth-child(2){
+  margin-bottom: 30px;
+}
+
+#work {
+  display: flex;
+  margin-top: 60px;
+}
+
+.work-text {
+  width: 45%;
+  padding: 150px 47px ;
+}
+
+.work-img {
+  width: 55%;
+}
+
+.work-img img {
+  width: 100%;
+}
+
+.work-text p:nth-child(2){
+  margin-bottom: 30px;
+}
+
+ 
+.work-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color:  #2D2D2D;
+  margin: 0;
+}
+
+.work-text p {
+  color:  #2D2D2D;
+  margin: 0;
+  padding-right:20px ;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px ;
+  margin: 84px auto 0 auto;
+
+}
+
+.copyright p {
+  margin: 0;
+}
+
+@media screen and (max-width:767px){
+  body {
+    margin: 0;
+  }
+
+  .main-visual {
+    width: 100%;
+    margin: 0;
+  }
+
+  header {
+    margin-top: 25px;
+  }
+  .link a {
+    margin-left: 30px;
+    font-size: 0.875rem;
+  }
+
+  .content {
+    width: 90%;
+    margin: 53px auto 0 auto;
+    
+  }
+
+  #concept {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .concept-img {
+    width: 100%;
+  }
+
+  .concept-img img {
+    width: 100%;
+  }
+
+  .concept-text{
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+  }
+
+  #work {
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+    
+  }
+
+  .work-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    order: 2;
+  }
+
+  .work-img {
+    width: 100%;
+    order: 1;
+  }
+
+  .work-img img {
+    width: 100%;
+  }
+
+  .work-text p,
+  .concept-text p {
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+  }
+}
